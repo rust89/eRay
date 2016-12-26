@@ -1,0 +1,93 @@
+﻿Построение начато 04.06.2012 7:41:26.
+     1>Проект "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\eRay III\eRay III.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\eRay III.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       PreBuildEvent:
+         call "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\eRay III\build.cmd"
+         :VCEnd
+         Для продолжения нажмите любую клавишу . . . 
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4995 /analyze- /errorReport:prompt RAboutBox.cpp WinLib\RTextBoxEx.cpp
+         RTextBoxEx.cpp
+         Создание кода...
+         Компиляция...
+         RAboutBox.cpp
+         Создание кода...
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\eRay III.exe" /INCREMENTAL /NOLOGO Comctl32.lib UxTheme.lib GdiPlus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\eRay III.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\eRay III.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\eRay III.lib" /MACHINE:X86 "Debug\eRay III.res"
+         "Debug\eRay III.exe.embed.manifest.res"
+         "Debug\eRay III.obj"
+         Debug\eRayDocument.obj
+         Debug\CustomSynItem.obj
+         Debug\Expression.obj
+         Debug\parsertypes.obj
+         Debug\parser_string.obj
+         Debug\Semantics.obj
+         Debug\SynNode.obj
+         Debug\SynTreeBuilder.obj
+         Debug\Token.obj
+         Debug\Tokinizer.obj
+         Debug\BaseRender.obj
+         Debug\ClassicRender.obj
+         Debug\CloudRender.obj
+         Debug\GraphicManager.obj
+         Debug\ImageBuffer.obj
+         Debug\ImageBufferObjects.obj
+         Debug\TemperatureField.obj
+         Debug\TemperatureRender.obj
+         Debug\RAboutBox.obj
+         Debug\RConfigBox.obj
+         Debug\RConfigPanel.obj
+         Debug\RImagePanel.obj
+         Debug\RMainFrame.obj
+         Debug\RModelParamFrame.obj
+         Debug\RRangingFrame.obj
+         Debug\RTemperatureFrame.obj
+         Debug\RTemperatureImage.obj
+         Debug\RVarEditorBox.obj
+         Debug\RApplication.obj
+         Debug\RButton.obj
+         Debug\RCheckBox.obj
+         Debug\RComboBox.obj
+         Debug\RCommonDialog.obj
+         Debug\RControl.obj
+         Debug\RConverter.obj
+         Debug\RCustomWindow.obj
+         Debug\RDialog.obj
+         Debug\RException.obj
+         Debug\RFrame.obj
+         Debug\RGroupBox.obj
+         Debug\RImageList.obj
+         Debug\RListView.obj
+         Debug\RObject.obj
+         Debug\RProgressBar.obj
+         Debug\RRebar.obj
+         Debug\RStaticText.obj
+         Debug\RStatusBar.obj
+         Debug\RTextBox.obj
+         Debug\RTextBoxEx.obj
+         Debug\RToolbar.obj
+         Debug\RTrackBar.obj
+         Debug\RWindow.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\eRay III.exe.embed.manifest" /manifest "Debug\eRay III.exe.intermediate.manifest"
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         eRay III.vcxproj -> C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\eRay III.exe
+       PostBuildEvent:
+         copy /Y "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\eRay III\ChangeLog.txt" "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\ChangeLog.txt"
+         :VCEnd
+         Скопировано файлов:         1.
+       FinalizeBuildStatus:
+         Файл "Debug\eRay III.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\eRay III.lastbuildstate".
+     1>Построение проекта "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\eRay III\eRay III.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:09.11

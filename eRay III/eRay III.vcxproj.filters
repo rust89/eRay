@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Оконная библиотека">
+      <UniqueIdentifier>{91fe4664-d9cd-456c-9c4f-ebaff7cbc6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Оконная библиотека\Заголовочные файлы">
+      <UniqueIdentifier>{5859e02b-40e7-4d6e-a8ce-036f71f9fb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Оконная библиотека\Файлы трансляции">
+      <UniqueIdentifier>{348875ac-93e1-491b-b6b5-f7b6a8274d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Графический движок">
+      <UniqueIdentifier>{76a9f36e-12e6-4e78-acb0-38718bf8a2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Графический движок\Заголовочные файлы">
+      <UniqueIdentifier>{9205afa9-653b-4b9f-b1c8-230a962d2164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Графический движок\Файлы трансляции">
+      <UniqueIdentifier>{788805e8-63f3-4ee7-ad3c-676a2b522355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Движок выражений">
+      <UniqueIdentifier>{04515ea8-4e4b-4979-a60f-3c20b02ad481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Движок выражений\Заголовочные файлы">
+      <UniqueIdentifier>{3b805169-0a61-4df9-88d1-c949d1a5923e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Движок выражений\Единицы трансляции">
+      <UniqueIdentifier>{cc840cd1-9bc6-4e4d-b11b-346771ac5acb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eRay III.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RApplication.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RFrame.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RCustomWindow.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RObject.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RControl.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RButton.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RCheckBox.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RComboBox.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RConverter.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RException.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RGroupBox.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RListView.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RRebar.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RStaticText.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RStatusBar.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RTextBox.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RToolbar.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RTrackBar.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RImageList.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="RMainFrame.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="eRayDocument.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RRangingFrame.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\GraphicManager.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\ImageBuffer.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\ImageBufferObjects.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\BaseRender.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\CloudRender.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\ClassicRender.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\Expression.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\parsertypes.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\Semantics.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\SynTreeBuilder.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\Tokinizer.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="RConfigPanel.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RImagePanel.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RConfigBox.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RVarEditorBox.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RAboutBox.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\TemperatureRender.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEngine\TemperatureField.cpp">
+      <Filter>Графический движок\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="RTemperatureFrame.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RTemperatureImage.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RTextBoxEx.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RProgressBar.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RWindow.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RDialog.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLib\RCommonDialog.cpp">
+      <Filter>Оконная библиотека\Файлы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="RModelParamFrame.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\SynNode.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\CustomSynItem.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\parser_string.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEngine\Token.cpp">
+      <Filter>Движок выражений\Единицы трансляции</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eRay III.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RApplication.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RArray.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RButton.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RCheckBox.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RComboBox.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RControl.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RConverter.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RCustomWindow.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RException.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RFrame.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RGroupBox.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RListView.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RMessageMap.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RObject.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RRebar.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RStaticText.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RStatusBar.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RString.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RTextBox.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RToolBar.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RTrackBar.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\WinLibCore.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RImageList.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RMainFrame.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="eRayDocument.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RRangingFrame.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\BaseRender.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\GraphicalTypes.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\ImageBuffer.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\ImageBufferObjects.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\GraphicManager.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\CloudRender.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\ClassicRender.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\Expression.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\parsertypes.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\Semantics.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\SynTreeBuilder.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\Tokenizer.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RConfigPanel.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RImagePanel.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RConfigBox.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalWndMessages.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RVarEditorBox.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\CloudField.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RAboutBox.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="build.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\TemperatureRender.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\TemperatureField.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEngine\Figure.h">
+      <Filter>Графический движок\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RTemperatureFrame.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RTemperatureImage.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RTextBoxEx.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RProgressBar.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RDialog.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RWindow.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLib\RCommonDialog.h">
+      <Filter>Оконная библиотека\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RModelParamFrame.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\SynNode.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\CustomSynItem.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\parser_string.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEngine\Token.h">
+      <Filter>Движок выражений\Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eRay III.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Ярлыки\Logo.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resource\Пиктограммы\OpenIco.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resource\Пиктограммы\SaveIco.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resource\Пиктограммы\SaveImageIco.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resource\Пиктограммы\Run.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resource\Пиктограммы\Run3d.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="ChangeLog.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eRay III", "eRay III\eRay III.vcxproj", "{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "View3D", "View3D\View3D.vcxproj", "{10A85338-4A44-4EC7-AE4E-923C5F55968F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resources", "Resources\Resources.vcxproj", "{A44C1286-C427-4178-9F67-8987555E0A36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}.Debug|Win32.Build.0 = Debug|Win32
+		{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}.Release|Win32.ActiveCfg = Release|Win32
+		{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}.Release|Win32.Build.0 = Release|Win32
+		{10A85338-4A44-4EC7-AE4E-923C5F55968F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10A85338-4A44-4EC7-AE4E-923C5F55968F}.Debug|Win32.Build.0 = Debug|Win32
+		{10A85338-4A44-4EC7-AE4E-923C5F55968F}.Release|Win32.ActiveCfg = Release|Win32
+		{10A85338-4A44-4EC7-AE4E-923C5F55968F}.Release|Win32.Build.0 = Release|Win32
+		{A44C1286-C427-4178-9F67-8987555E0A36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A44C1286-C427-4178-9F67-8987555E0A36}.Debug|Win32.Build.0 = Debug|Win32
+		{A44C1286-C427-4178-9F67-8987555E0A36}.Release|Win32.ActiveCfg = Release|Win32
+		{A44C1286-C427-4178-9F67-8987555E0A36}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

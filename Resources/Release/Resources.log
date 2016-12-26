@@ -1,0 +1,25 @@
+﻿Построение начато 30.05.2012 21:24:52.
+     1>Проект "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Resources\Resources.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\Resources.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RESOURCES_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Resources.cpp
+         Resources.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Resources.res" Resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Release\Resources.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Resources.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Release\Resources.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Release\Resources.lib" /MACHINE:X86 /DLL Release\Resources.res
+         Release\Resources.obj
+         Создание кода
+         Создание кода завершено
+         Resources.vcxproj -> C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Release\Resources.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Release\Resources.dll;#2" /manifest Release\Resources.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\Resources.unsuccessfulbuild" удаляется.
+         Обращение к "Release\Resources.lastbuildstate".
+     1>Построение проекта "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Resources\Resources.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.03

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD31B8BE-F37A-4972-94E5-0A21FFC1DB20}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>eRayIII</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Comctl32.lib;UxTheme.lib;GdiPlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)ChangeLog.txt" "$(TargetDir)ChangeLog.txt"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>call "$(ProjectDir)build.cmd"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Comctl32.lib;UxTheme.lib;GdiPlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)ChangeLog.txt" "$(TargetDir)ChangeLog.txt"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>call "$(ProjectDir)build.cmd"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="eRay III.cpp" />
+    <ClCompile Include="eRayDocument.cpp" />
+    <ClCompile Include="ExpressionEngine\CustomSynItem.cpp" />
+    <ClCompile Include="ExpressionEngine\Expression.cpp" />
+    <ClCompile Include="ExpressionEngine\parsertypes.cpp" />
+    <ClCompile Include="ExpressionEngine\parser_string.cpp" />
+    <ClCompile Include="ExpressionEngine\Semantics.cpp" />
+    <ClCompile Include="ExpressionEngine\SynNode.cpp" />
+    <ClCompile Include="ExpressionEngine\SynTreeBuilder.cpp" />
+    <ClCompile Include="ExpressionEngine\Token.cpp" />
+    <ClCompile Include="ExpressionEngine\Tokinizer.cpp" />
+    <ClCompile Include="GraphicalEngine\BaseRender.cpp" />
+    <ClCompile Include="GraphicalEngine\ClassicRender.cpp" />
+    <ClCompile Include="GraphicalEngine\CloudRender.cpp" />
+    <ClCompile Include="GraphicalEngine\GraphicManager.cpp" />
+    <ClCompile Include="GraphicalEngine\ImageBuffer.cpp" />
+    <ClCompile Include="GraphicalEngine\ImageBufferObjects.cpp" />
+    <ClCompile Include="GraphicalEngine\TemperatureField.cpp" />
+    <ClCompile Include="GraphicalEngine\TemperatureRender.cpp" />
+    <ClCompile Include="RAboutBox.cpp" />
+    <ClCompile Include="RConfigBox.cpp" />
+    <ClCompile Include="RConfigPanel.cpp" />
+    <ClCompile Include="RImagePanel.cpp" />
+    <ClCompile Include="RMainFrame.cpp" />
+    <ClCompile Include="RModelParamFrame.cpp" />
+    <ClCompile Include="RRangingFrame.cpp" />
+    <ClCompile Include="RTemperatureFrame.cpp" />
+    <ClCompile Include="RTemperatureImage.cpp" />
+    <ClCompile Include="RVarEditorBox.cpp" />
+    <ClCompile Include="WinLib\RApplication.cpp" />
+    <ClCompile Include="WinLib\RButton.cpp" />
+    <ClCompile Include="WinLib\RCheckBox.cpp" />
+    <ClCompile Include="WinLib\RComboBox.cpp" />
+    <ClCompile Include="WinLib\RCommonDialog.cpp" />
+    <ClCompile Include="WinLib\RControl.cpp" />
+    <ClCompile Include="WinLib\RConverter.cpp" />
+    <ClCompile Include="WinLib\RCustomWindow.cpp" />
+    <ClCompile Include="WinLib\RDialog.cpp" />
+    <ClCompile Include="WinLib\RException.cpp" />
+    <ClCompile Include="WinLib\RFrame.cpp" />
+    <ClCompile Include="WinLib\RGroupBox.cpp" />
+    <ClCompile Include="WinLib\RImageList.cpp" />
+    <ClCompile Include="WinLib\RListView.cpp" />
+    <ClCompile Include="WinLib\RObject.cpp" />
+    <ClCompile Include="WinLib\RProgressBar.cpp" />
+    <ClCompile Include="WinLib\RRebar.cpp" />
+    <ClCompile Include="WinLib\RStaticText.cpp" />
+    <ClCompile Include="WinLib\RStatusBar.cpp" />
+    <ClCompile Include="WinLib\RTextBox.cpp" />
+    <ClCompile Include="WinLib\RTextBoxEx.cpp" />
+    <ClCompile Include="WinLib\RToolbar.cpp" />
+    <ClCompile Include="WinLib\RTrackBar.cpp" />
+    <ClCompile Include="WinLib\RWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdditionalWndMessages.h" />
+    <ClInclude Include="build.h" />
+    <ClInclude Include="eRay III.h" />
+    <ClInclude Include="eRayDocument.h" />
+    <ClInclude Include="ExpressionEngine\CustomSynItem.h" />
+    <ClInclude Include="ExpressionEngine\Expression.h" />
+    <ClInclude Include="ExpressionEngine\parsertypes.h" />
+    <ClInclude Include="ExpressionEngine\parser_string.h" />
+    <ClInclude Include="ExpressionEngine\Semantics.h" />
+    <ClInclude Include="ExpressionEngine\SynNode.h" />
+    <ClInclude Include="ExpressionEngine\SynTreeBuilder.h" />
+    <ClInclude Include="ExpressionEngine\Token.h" />
+    <ClInclude Include="ExpressionEngine\Tokenizer.h" />
+    <ClInclude Include="GraphicalEngine\CloudField.h" />
+    <ClInclude Include="GraphicalEngine\CloudRender.h" />
+    <ClInclude Include="GraphicalEngine\BaseRender.h" />
+    <ClInclude Include="GraphicalEngine\Figure.h" />
+    <ClInclude Include="GraphicalEngine\GraphicManager.h" />
+    <ClInclude Include="GraphicalEngine\GraphicalTypes.h" />
+    <ClInclude Include="GraphicalEngine\ImageBuffer.h" />
+    <ClInclude Include="GraphicalEngine\ImageBufferObjects.h" />
+    <ClInclude Include="GraphicalEngine\ClassicRender.h" />
+    <ClInclude Include="GraphicalEngine\TemperatureField.h" />
+    <ClInclude Include="GraphicalEngine\TemperatureRender.h" />
+    <ClInclude Include="RAboutBox.h" />
+    <ClInclude Include="RConfigBox.h" />
+    <ClInclude Include="RConfigPanel.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RImagePanel.h" />
+    <ClInclude Include="RMainFrame.h" />
+    <ClInclude Include="RModelParamFrame.h" />
+    <ClInclude Include="RRangingFrame.h" />
+    <ClInclude Include="RTemperatureFrame.h" />
+    <ClInclude Include="RTemperatureImage.h" />
+    <ClInclude Include="RVarEditorBox.h" />
+    <ClInclude Include="WinLib\RCommonDialog.h" />
+    <ClInclude Include="WinLib\RWindow.h" />
+    <ClInclude Include="WinLib\RApplication.h" />
+    <ClInclude Include="WinLib\RArray.h" />
+    <ClInclude Include="WinLib\RButton.h" />
+    <ClInclude Include="WinLib\RCheckBox.h" />
+    <ClInclude Include="WinLib\RComboBox.h" />
+    <ClInclude Include="WinLib\RControl.h" />
+    <ClInclude Include="WinLib\RConverter.h" />
+    <ClInclude Include="WinLib\RCustomWindow.h" />
+    <ClInclude Include="WinLib\RDialog.h" />
+    <ClInclude Include="WinLib\RException.h" />
+    <ClInclude Include="WinLib\RFrame.h" />
+    <ClInclude Include="WinLib\RGroupBox.h" />
+    <ClInclude Include="WinLib\RImageList.h" />
+    <ClInclude Include="WinLib\RListView.h" />
+    <ClInclude Include="WinLib\RMessageMap.h" />
+    <ClInclude Include="WinLib\RObject.h" />
+    <ClInclude Include="WinLib\RProgressBar.h" />
+    <ClInclude Include="WinLib\RRebar.h" />
+    <ClInclude Include="WinLib\RStaticText.h" />
+    <ClInclude Include="WinLib\RStatusBar.h" />
+    <ClInclude Include="WinLib\RString.h" />
+    <ClInclude Include="WinLib\RTextBox.h" />
+    <ClInclude Include="WinLib\RTextBoxEx.h" />
+    <ClInclude Include="WinLib\RToolBar.h" />
+    <ClInclude Include="WinLib\RTrackBar.h" />
+    <ClInclude Include="WinLib\WinLibCore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eRay III.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChangeLog.txt" />
+    <None Include="Resource\Пиктограммы\OpenIco.bmp" />
+    <None Include="Resource\Пиктограммы\Run.bmp" />
+    <None Include="Resource\Пиктограммы\Run3d.bmp" />
+    <None Include="Resource\Пиктограммы\SaveIco.bmp" />
+    <None Include="Resource\Пиктограммы\SaveImageIco.bmp" />
+    <None Include="Resource\Ярлыки\Logo.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

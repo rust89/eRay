@@ -1,0 +1,31 @@
+﻿Построение начато 27.04.2012 21:24:10.
+     1>Проект "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Resources\Resources.vcxproj" в узле 3 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Resources.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RESOURCES_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Resources.cpp
+         Resources.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Resources.res" Resources.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Resources.dll.embed.manifest.res" Debug\Resources_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Resources.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.lib" /MACHINE:X86 /DLL Debug\Resources.res
+         Debug\Resources.dll.embed.manifest.res
+         Debug\Resources.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Resources.dll.embed.manifest" /manifest Debug\Resources.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Resources.dll.embed.manifest.res" Debug\Resources_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Resources.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.lib" /MACHINE:X86 /DLL Debug\Resources.res
+         Debug\Resources.dll.embed.manifest.res
+         Debug\Resources.obj
+         Resources.vcxproj -> C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Debug\Resources.dll
+       FinalizeBuildStatus:
+         Файл "Debug\Resources.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Resources.lastbuildstate".
+     1>Построение проекта "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\eRay III\Resources\Resources.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.58
